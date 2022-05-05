@@ -25,4 +25,3 @@ df['cylinders'] = df['cylinders'].apply(transform_cylinders)
 print()
 print(df.dtypes)
 
-# print(df)
