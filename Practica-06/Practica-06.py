@@ -51,7 +51,7 @@ def linear_regression(df: pd.DataFrame, x, y) -> None:
 
 df = get_df()
 
-df_peaks = df["price"] >= 37369287 #promedios de precios
+df_peaks = df["price"] >= 37369287 #mediana de precio
 grp_year = df[df_peaks].groupby(df["year"])
 grp_year = grp_year.mean()
 
